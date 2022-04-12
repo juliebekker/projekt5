@@ -20,3 +20,30 @@ alert("tjek om js virker!");
     document.getElementById("unordered").appendChild(li);
   });
 //Cecilie JS slut
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Amalie JS start 
+
+
+
+
+
+//Amalie JS slut
