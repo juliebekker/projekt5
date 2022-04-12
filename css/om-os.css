@@ -43,12 +43,12 @@
   }
 
   .logoplaceholder3 {
-    grid-area: bill2;
+    grid-area: bill3;
     width: 100%;
   }
 
   .logoplaceholder4 {
-    grid-area: bill2;
+    grid-area: bill4;
     width: 100%;
   }
 }
@@ -61,6 +61,7 @@
           margin-right: auto;
           grid-template-columns: repeat(12, 1fr);
           grid-template-areas:
-          ". bill1 bill1 bill1 bill1 bill1 bill2 bill2 bill2 bill2 bill2 .";
+          ". bill1 bill1 bill1 bill1 bill1 bill2 bill2 bill2 bill2 bill2 ."
+          ". bill3 bill3 bill3 bill3 bill3 bill4 bill4 bill4 bill4 bill4 .";
     }
 }
