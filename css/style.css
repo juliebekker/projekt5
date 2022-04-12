@@ -1,0 +1,26 @@
+/*Billede af Hr og Fru Hansen med tekst over*/
+.hansen-container{
+    position: relative;
+    text-align: left;
+}
+.hansen{
+    width: 100%;
+    height: auto;
+}
+.hr-og-fru{
+    font-family:'Berkshire Swash';
+    color: #FFFFFF;
+    font-size: 50px;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 30px;
+}
+.slogan{
+    font-family: 'Karla';
+    color: #FFFFFF;
+    font-size: 25px;
+    position: absolute;
+    margin-top: -73px;
+    margin-left: 35px;
+    font-weight: 600;
+}
