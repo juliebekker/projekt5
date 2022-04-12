@@ -1,11 +1,8 @@
-* {
-    box-sizing: border-box;
-  }
-
 .billedekasse1 {
   float: left;
   width: 50%;
   padding: 50px;
+  box-sizing: border-box;
 }
 
 /* Clearfix (clear floats) */
@@ -13,24 +10,44 @@
   content: "";
   clear: both;
   display: table;
+  box-sizing: border-box;
 }
 
 .logoplaceholder {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logoplaceholder2 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (min-width: 480px) {
+  .logoplaceholder {
     grid-area: bill1;
     width: 100%;
   }
+  
 
   .logoplaceholder2 {
     grid-area: bill2;
     width: 100%;
   }
+}
 
-#raekkeforbillederetogtotest {
-    display: grid;
-    grid-gap: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas:
-        ". bill1 bill1 bill1 bill1 bill1 bill2 bill2 bill2 bill2 bill2 .";
+  @media screen and (min-width: 480px) {
+      #raekkeforbillederetogtotest {
+          display: grid;
+          grid-gap: 25px;
+          margin-left: auto;
+          margin-right: auto;
+          grid-template-columns: repeat(12, 1fr);
+          grid-template-areas:
+          ". bill1 bill1 bill1 bill1 bill1 bill2 bill2 bill2 bill2 bill2 .";
+    }
 }
