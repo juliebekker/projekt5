@@ -4,4 +4,16 @@ let footerInformation = ["ADRESSE", "Vesterbro 13, 5000 Odense C", "Tlf. 61 74 3
 document.getElementById("address-contact").innerHTML = "<p>" + footerInformation[0] + footerInformation[1] + footerInformation[2]+ "</p>";
 document.getElementById("opening-hours").innerHTML = "<p>" + footerInformation[3] + footerInformation[4] + footerInformation[5] + footerInformation[6] + "</p>";
 
+function open() {
+    if (document.getElementById("instagram-media").onclick) {
+        alert("Åben instagram?");
+    } else if (document.getElementById("facebook-media").onclick) {
+        alert("Åben facebook?");
+    } else {
+        alert("huh?");
+    }
+}
+
+
+
 //Amalie JS slut
