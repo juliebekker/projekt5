@@ -17,13 +17,15 @@
 .pulvis{
     display: flex;
     font-family: 'Berkshire Swash';
-    font-size: 55px;
+    font-size: 65px;
     color: #794A44;
 }
 #menu{
     display: flex;
     border:1px solid #753E36;
     border-width:1px 0;
+    font-family: 'Karla';
+    font-weight: 600;
 
 }
 #menu li{
