@@ -9,8 +9,6 @@ function openSocialMedia() {
         alert("Åben instagram?");
     } else if (document.getElementById("facebook-media").onclick) {
         alert("Åben facebook?");
-    } else {
-        alert("huh?");
     }
 }
-//Amalie JS slut
+//Amalie JS end
