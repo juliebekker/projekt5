@@ -3,7 +3,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 2px;
   }
 
   .logoplaceholder2 {
@@ -28,6 +28,15 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
+  }
+
+  .billedteksttest {
+      text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
   }
 
   @media screen and (min-width: 480px) {
