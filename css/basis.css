@@ -45,7 +45,14 @@
 }
 
 /* footer */
+#info {
+    display: flex;
+    justify-content: space-between;
+}
 
+#info > p {
+    flex-direction: column;
+}
 
 
 @media(max-width:1024px){
