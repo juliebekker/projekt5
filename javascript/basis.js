@@ -1,7 +1,7 @@
 //alert("tjek om js virker!");
 //Cecilie JS start
-  /*Herunder er burgermenu lavet ved brug af "getElementById", som er hentet fra DOM. 
-  */
+  //Herunder er burgermenu lavet ved brug af "getElementById", som er hentet fra DOM. 
+  
   let burgerMenu = document.getElementById('burgermenu');
   let overlay = document.getElementById('menu');
   burgerMenu.addEventListener('click',function(){
