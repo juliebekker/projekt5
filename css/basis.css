@@ -6,12 +6,12 @@
     display: flex;
     padding: 3%;
     justify-content: center;
-    
+
 }
 .pulvis-logo{
     width: 13%;
     height: 65%;
-    
+
 }
 .pulvis{
     display: flex;
@@ -23,7 +23,7 @@
     display: flex;
     border:1px solid #753E36;
     border-width:1px 0;
-     
+
 }
 #menu li{
     display: inline;
@@ -35,7 +35,7 @@
     color: #794A44;
     text-decoration: none;
     font-weight: 600;
-    font-size: 25px;  
+    font-size: 25px;
 }
 #menu{
     display:inline-block;
@@ -100,7 +100,7 @@ p {
     overflow: visible;
     position: relative;
     z-index:2;
-    
+
 }
 #burgermenu span,
 #burgermenu span:before,
@@ -186,11 +186,11 @@ p {
 @media(max-width:480px){
     .pulvis{
         font-size: 23px;
-    } 
+    }
     .pulvis-logo{
         width: 28%;
         height: 43%;
-        
+
     }
 
 }
