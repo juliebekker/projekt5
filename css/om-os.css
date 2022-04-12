@@ -3,6 +3,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
   }
 
   .logoplaceholder2 {
@@ -10,6 +11,23 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
+  }
+
+  .logoplaceholder3 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+  }
+
+  .logoplaceholder4 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
   }
 
   @media screen and (min-width: 480px) {
@@ -20,6 +38,16 @@
   
 
   .logoplaceholder2 {
+    grid-area: bill2;
+    width: 100%;
+  }
+
+  .logoplaceholder3 {
+    grid-area: bill2;
+    width: 100%;
+  }
+
+  .logoplaceholder4 {
     grid-area: bill2;
     width: 100%;
   }
