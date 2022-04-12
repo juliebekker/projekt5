@@ -55,7 +55,7 @@
 .contact-block {
     display: flex;
     flex-direction: row;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 5rem;
 }
 
 .line {
@@ -70,8 +70,12 @@
 }
 
 #social-media {
-    margin: 0 -7rem 0 40rem;}
+    margin: 3rem -3rem -5rem 30rem;
+}
 
+p {
+    font: 400 1rem 'Karla', arial, sans-serif;
+}
 
 
 @media(max-width:1024px){
