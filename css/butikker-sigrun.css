@@ -1,84 +1,84 @@
-/*Grundlæggende indhold er knyttet til begge sider*/
+/*Grundlæggende indhold, er knyttet til alle 4 sider - butikker*/
 body {
   background-image: url(../img/billeder/butik-billeder/baggrund-web.jpg);
   color: #6b3730;
   font-family: 'Karla';
   font-style: italic;
 }
-
+/* Overskrift */
 h1 {
   margin-bottom: 40px;
   text-align: center;
   font-size: 35px;
 }
-
+/* Overskrift i tekst box */
 h2 {
   font-size: 25px;
 }
-
+/* Teksten under overskriften H1 */
 .hjalpeinformation p{
   font-size: 9px;
   margin-top: -45px;
   text-align: center;
   margin-bottom: 50px;
 }
-
+/* Flexbox */
 * {
   box-sizing: border-box;
 }
-
+/* Overordnet box for flex box */
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   margin: 20px;
 }
-
+/* Bokse der indeholder billeder */
 .flex-item-left {
   background-color: #f1f1f1;
   padding: 10px;
   flex: 50%;
   margin-top: 10px;
 }
-
+/* Boxe der indeholder tekst */
 .flex-item-right {
   background-color: #F3F3F3;
   padding: 10px;
   flex: 50%;
   margin-top: 10px;
 }
-
+/* Selve teksten, inde i tekst box */
 .flex-item-right p {
   font-size: 12px;
 }
-
+/* Selve billederne inde i billedbox */
 .butikker {
   width: 100%;
   height: auto;
 }
-
+/* Hover effekt */
 .zoom {
   transition: transform .2s;
 }
-
+/* Hover effekt */
 .zoom:hover {
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5); 
   transform: scale(1.5); 
 }
-
+/* Pil tilbage */
 #pil {
   margin-left: 15px;
   width: 15px;
 }
-
+/* Selve teksten i tekstfelterne, på undersiderne */
 .om-butikken p {
   font-size: 17px;
   background-image: url(../img/billeder/butik-billeder/Group\ 69.jpg);
   margin: 15px;
 }
 
-/* Det næste lange stykke, er stile af vores profilbilleder galleri */
+/* Her starter galleri */
 * {box-sizing: border-box}
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -90,7 +90,7 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
-/* pilene frem og tilbage, hvor vi kan skifte billede */
+/* pilene frem og tilbage */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -106,18 +106,18 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Pilen til højre */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* Hover effekt, pilene */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Number text (1/6 etc) */
+/* Nummer tekst (1/6) */
 .numbertext {
   color: #6b3730;
   font-size: 12px;
@@ -128,8 +128,7 @@ img {vertical-align: middle;}
   margin: 15px;
 }
 
-
-/* The dots/bullets/indicators */
+/* Prikkerne under billederne */
 .dot {
   cursor: pointer;
   height: 7px;
@@ -141,12 +140,12 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-/* farven skifter */
+/* Hover effekt for prikkerne */
 .active, .dot:hover {
   background-color: #6b3730;
 }
 
-/* Fading animation */
+/* Fading animation - imellem billederne */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -161,26 +160,27 @@ img {vertical-align: middle;}
   margin-top: 30px;
 }
 
+/* Fading animation - imellem billederne */
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
 
+/* Fading animation - imellem billederne */
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
 
-@media screen and (min-width:768px) {
- h1 {
-   font-size: 50px;
- }
-.hjalpeinformation p {
-  font-size: 15px;
- }
-}
 
+/* Ændringer for siden < 768px */
 @media screen and (min-width:768px) {
+  h1 {
+    font-size: 50px;
+  }
+ .hjalpeinformation p {
+   font-size: 15px;
+  }
   .butikker {
     width: 100%;
     height: auto;
@@ -211,14 +211,14 @@ img {vertical-align: middle;}
   }
 }
 
-
-/* Responsive layout - makes a one column-layout instead of a two-column layout */
+/* Flexbox - vises som colone op til 800px */
 @media (max-width: 800px) {
   .flex-item-right, .flex-item-left {
     flex: 100%;
   }
 }
 
+/* Ændringer for siden < 1024px */
 @media screen and (min-width:1024px) {
   h1 {
     font-size: 90px;
@@ -253,29 +253,29 @@ h2 {
 .prev, .next {
   font-size: 35px;
   margin: 30px;
-}
+ }
 }
 
-
-    @media screen and (min-width:1440px) {
-      #pil {
-        width: 3%;
-        margin: 50px;
-      }
-      .numbertext {
-        font-size: 40px;
-        margin: 50px;
-      }
-      .prev, .next {
-        font-size: 45px;
-        margin: 50px;
-      }
-     .butikker {
-      width: 100%;
-      height: auto;
+/* Ændringer for siden < 1440px */
+ @media screen and (min-width:1440px) {
+  #pil {
+  width: 3%;
+  margin: 50px;
+ }
+ .numbertext {
+  font-size: 40px;
+  margin: 50px;
+  }
+  .prev, .next {
+   font-size: 45px;
+   margin: 50px;
+   }
+   .butikker {
+    width: 100%;
+    height: auto;
     }
     .flex-item-right p {
-      display: none;
+    display: none;
     }
     .flex-item-left {
       width: 100%;
@@ -285,12 +285,14 @@ h2 {
     }
     }
 
+    /* Siden viser h3 ved < 1439px */
     @media screen and (max-width:1439px) {
       h3 {
         display: none;
       }
  }
 
+/* Ændringer for siden < 2560px */
  @media screen and (min-width:2560px) {
   h1 {
     font-size: 100px;
