@@ -55,7 +55,7 @@ p {
 
 
 /* footer */
-.info {
+#info-footer {
     display: flex;
     background-color: #BE7A5E;
     color: #fff;
@@ -89,7 +89,7 @@ p {
 }
 
 #facebook-media, #instagram-media {
-    height: 5rem;
+    height: 4rem;
 }
 
 @media(max-width:1024px){
@@ -98,7 +98,7 @@ p {
     }
 
     /* footer */
-    .info {
+    #info-footer {
         background-color: red;
     }
 
@@ -204,7 +204,7 @@ p {
     color: #1E2D63;
 }
     /* footer */
-    .info {
+    #info-footer {
         background-color: yellow;
     }
 
@@ -244,7 +244,7 @@ p {
     }
 
     /* footer */
-    .info {
+    #info-footer {
         background-color: blue;
     }
 
