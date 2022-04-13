@@ -240,7 +240,8 @@ h2 {
 }
 .om-butikken p{
   font-size: 30px;
-  margin: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 #pil {
   width: 4%;
@@ -257,10 +258,6 @@ h2 {
 
 
     @media screen and (min-width:1440px) {
-      .om-butikken p{
-        font-size: 40px;
-        margin: 50px;
-      }
       #pil {
         width: 3%;
         margin: 50px;
@@ -307,12 +304,6 @@ h2 {
  .hjalpeinformation p {
    font-size: 30px;
  }
-
-
- .om-butikken p{
-  font-size: 50px;
-  margin: 100px;
-}
 #pil {
   width: 3%;
   margin: 100px;
