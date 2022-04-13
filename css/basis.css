@@ -67,6 +67,14 @@ p {
     margin: 1rem 2rem 1rem 3rem;
 }
 
+.contact-block-one, .contact-block-two {
+    display: flex;
+}
+
+.contact-block-one {
+    margin-right: 3rem;
+}
+
 .line {
     background-color: #fff;
     height: auto;
@@ -80,6 +88,10 @@ p {
     margin-right: 3rem;
 }
 
+#facebook-media, #instagram-media {
+    height: 5rem;
+}
+
 @media(max-width:1024px){
     #menu a{
         font-size: 20px;
@@ -89,11 +101,6 @@ p {
     .info {
         background-color: red;
     }
-
-
-
-
-
 
     
 }
@@ -200,6 +207,30 @@ p {
     .info {
         background-color: yellow;
     }
+
+    .contact-block {
+        flex-direction: column;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .contact-block-one {
+        margin-bottom: 2rem;
+    }
+
+    #social-media {
+        align-items: flex-end;
+        margin: 0 2rem 1rem 0;
+    }
+
+    #facebook-media, #instagram-media {
+        height: 3rem;
+    }
+
+    /*font*/
+    p {
+        font-size: 0.8rem;
+    }
+
 
 }
 @media(max-width:480px){
