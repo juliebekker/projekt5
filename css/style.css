@@ -1,3 +1,6 @@
+*{
+    font-family: 'karla';
+}
 /*Billede af Hr og Fru Hansen med tekst over*/
 .hansen{
     width: 100%;
@@ -49,8 +52,6 @@
     height: 4rem;
     background-color: #1E2D63;
     border-radius: 10px;
-    
-    
 }
 .btn a{
     font-size: 20px;
