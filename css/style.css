@@ -10,17 +10,136 @@
 .hr-og-fru{
     font-family:'Berkshire Swash';
     color: #FFFFFF;
-    font-size: 50px;
+    font-size: 80px;
     position: absolute;
-    margin-top: -130px;
-    margin-left: 30px;
+    margin-top: -250px;
+    margin-left: 100px;
 }
 .slogan{
-    font-family: 'Karla';
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 40px;
     position: absolute;
-    margin-top: -73px;
-    margin-left: 35px;
+    margin-top: -150px;
+    margin-left: 105px;
     font-weight: 600;
+}
+.papir-baggrund{
+    width: 100%;
+    height: auto;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    text-align: left;
+    margin-top: -900px;
+    margin-left: 260px;
+    
+
+}
+.hvem-er-vi{
+    font-weight: 600;
+    font-size: 35px;
+    color: #6B3730;
+    
+}
+.tekst-om{
+    font-size: 25px;
+    color: #6B3730;
+    font-weight: 600;
+    background-color: #F3F3F3;
+    padding: 20px;
+}
+.btn{
+    width: 8rem;
+    height: 4rem;
+    background-color: #1E2D63;
+    border-radius: 10px;
+    
+    
+}
+.btn a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+@media(max-width:1024px){
+    .hr-og-fru{
+        font-size: 70px;
+        margin-top: -200px;
+        margin-left: 30px;
+    }
+    .slogan{
+        font-size: 35px;
+        margin-top: -115px;
+        margin-left: 35px;
+    }
+    .main-container{
+        width: 800px;
+        margin-top: -650px;
+        margin-left: 100px;
+    }
+    
+}
+@media(max-width:768px){
+    .hr-og-fru{
+        font-size: 50px;
+        margin-top: -150px;
+        margin-left: 20px;
+    }
+    .slogan{
+        font-size: 25px;
+        margin-top: -90px;
+        margin-left: 25px;
+    }
+    .main-container{
+        width: 600px;
+        margin-top: -480px;
+        margin-left: 70px;
+    }
+    .hvem-er-vi{
+        font-size: 25px;
+    }
+    .tekst-om{
+        font-size: 17px;
+    }
+    .btn{
+        width: 7rem;
+        height: 3rem;
+    }
+    .btn a{
+        font-size: 17px;
+    }
+    
+}
+@media(max-width:480px){
+    .hr-og-fru{
+        font-size: 25px;
+        margin-top: -70px;
+        margin-left: 10px;
+    }
+    .slogan{
+        font-size: 14px;
+        margin-top: -38px;
+        margin-left: 11px;
+    }
+    .main-container{
+        width: 250px;
+        margin-top: -190px;
+        margin-left: 20px;
+    }
+    .hvem-er-vi{
+        font-size: 22px;
+    }
+    .tekst-om{
+        font-size: 13px;
+    }
+    .btn{
+        width: 5rem;
+        height: 2.5rem;
+    }
+    .btn a{
+        font-size: 13px;
+    }
 }
