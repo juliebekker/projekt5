@@ -1,4 +1,15 @@
-.teksttilinteresser {
+.headerkasse {
+  width: 83.3333%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+}
+
+.interesserkasse {
+  width: 83.3333%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: aqua;
 }
 
@@ -61,6 +72,14 @@
   grid-area: img1;
   width: 100%;
   margin-bottom: -10%;
+}
+
+.headerkasse {
+  width: 83.3333%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
 }
   
 .logoplaceholder2 {
@@ -140,6 +159,7 @@
           margin-right: auto;
           grid-template-columns: repeat(12, 1fr);
           grid-template-areas:
+          ". inte inte inte inte inte inte inte inte inte inte ."
           ". img1 img1 img1 img1 img1 img2 img2 img2 img2 img2 ."
           ". bite1 bite1 bite1 bite1 bite1 bite2 bite2 bite2 bite2 bite2 ."
           ". img3 img3 img3 img3 img3 img4 img4 img4 img4 img4 ."
