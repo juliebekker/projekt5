@@ -85,7 +85,7 @@ h1 {
   width: 15px;
 }
 
-.om-butikken {
+.om-butikken p {
   font-size: 10px;
   background-image: url(../img/billeder/butik-billeder/Group\ 69.jpg);
   margin: 12px;
@@ -137,6 +137,7 @@ img {vertical-align: middle;}
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  margin-top: 30px;
 }
 
 /* The dots/bullets/indicators */
@@ -168,6 +169,7 @@ img {vertical-align: middle;}
 .imgpro {
   width: 50%;
   margin-left: 25%;
+  margin-top: 30px;
 }
 
 @-webkit-keyframes fade {
