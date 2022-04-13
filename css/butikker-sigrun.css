@@ -7,24 +7,55 @@ body {
 }
 
 h1 {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 25px;
 }
 
 .info p{
   font-size: 9px;
-  margin-top: -50px;
+  margin-top: -45px;
   text-align: center;
   margin-bottom: 50px;
 }
 
-.butik-pulvis img{
-  margin-top: 1px;
-  width: 50%;
-  float: left;
+* {
+  box-sizing: border-box;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 20px;
+}
+
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
+  margin-top: 10px;
+}
+
+.flex-item-right {
+  background-color: #F3F3F3;
+  padding: 10px;
+  flex: 50%;
+  margin-top: 10px;
+}
+
+.flex-item-right p {
+  font-size: 12px;
+}
+
+.butikker {
+  width: 100%;
+  height: auto;
+}
 
 .zoom {
   transition: transform .2s;
@@ -36,57 +67,13 @@ h1 {
   transform: scale(1.5); 
 }
 
-.butik-pulvis h2 {
-  font-size: 15px;
-  margin-left: 50%;
-  padding-left: 5px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  background-image: url(../img/billeder/butik-billeder/Group\ 69.jpg);
-}
-
-.butik-pulvis p {
-  background-image: url(../img/billeder/butik-billeder/Group\ 69.jpg);
-  font-size: 10px;
-  margin-left: 50%;
-  padding-left: 5px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  height: 70px;
-}
-
-.butik-pulvis {
-  border-bottom: 1px dashed #6b3730;
-}
-
-.butik-pulvis-find {
-  background-image: url(../img/billeder/butik-billeder/Group\ 69.jpg);
-}
-
-.butik-pulvis-find p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 10px;
-}
-
-.butik-pulvis-find h2 {
-  margin-bottom: 0px;
-  margin-top: 0px;
-  text-align: center;
-  font-size: 20px;
-
-}.butik-pulvis-find h3 {
-  margin-bottom: 0px;
-  font-size: 15px;
-}
-
 #pil {
   margin-left: 15px;
   width: 15px;
 }
 
 .om-butikken p {
-  font-size: 10px;
+  font-size: 17px;
   background-image: url(../img/billeder/butik-billeder/Group\ 69.jpg);
   margin: 12px;
 }
@@ -182,73 +169,45 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
-@media screen and (min-width:325px) {
-  .butik-pulvis p {
-    height: 85px;
-  } 
-}
-
-@media screen and (min-width:425px) {
-  .butik-pulvis p {
-    height: 100px;
-  } 
-}
-
 @media screen and (min-width:768px) {
  h1 {
    font-size: 50px;
  }
- .butik-pulvis h2 {
-  font-size: 35px;
-}
-.butik-pulvis-find h2 {
-  font-size: 35px;
-
-}.butik-pulvis-find h3 {
-  margin-bottom: 0px;
-  font-size: 25px;
-}
 .info p {
   font-size: 15px;
+ }
 }
- .butik-pulvis img{
-  width: 50%;
+
+@media screen and (min-width:768px) {
+  .butikker {
+    width: 100%;
+    height: auto;
+  }
+  .flex-item-left {
+    width: 137%;
+  }
+  .flex-item-right p {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 35px;
+  }
 }
-.butik-pulvis p {
-  font-size: 20px;
-  height: 173px;
-}
-.butik-pulvis-find p {
-  font-size: 20px;
-}
+
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
 }
 
 @media screen and (min-width:1024px) {
   h1 {
-    font-size: 60px;
+    font-size: 90px;
   }
-  .butik-pulvis h2 {
-   font-size: 40px;
- }
- .butik-pulvis-find h2 {
-  font-size: 40px;
-}.butik-pulvis-find h3 {
-  margin-bottom: 0px;
-  font-size: 35px;
-}
  .info p {
    font-size: 20px;
- }
-  .butik-pulvis img{
-   width: 50%;
-   margin-bottom: 20px;
- }
- .butik-pulvis p {
-   font-size: 25px;
-   height: 240px;
- }
- .butik-pulvis-find p {
-   font-size: 25px;
  }
  #pil {
   width: 20px;
@@ -262,19 +221,19 @@ img {vertical-align: middle;}
 .numbertext {
   font-size: 20px;
 }
- }
+ 
+.flex-item-right p {
+  font-size: 30px;
+}
+h2 {
+  font-size: 40px;
+}
 
-
- @media screen and (min-width:1199px) {
-  .butik-pulvis p {
-    height: 310px;
-  }
-  }
-
+.flex-item-left {
+  width: 185%;
+}
+}
   @media screen and (min-width:1299px) {
-    .butik-pulvis p {
-      height: 320px;
-    }
     #pil {
       width: 30px;
     }
@@ -289,43 +248,56 @@ img {vertical-align: middle;}
     }
     }
 
- @media screen and (min-width:1399px) {
-  .butik-pulvis p {
-    height: 345px;
-  }
-  }
+    @media screen and (min-width:1440px) {
+    
+     #pil {
+      width: 20px;
+    }
+    .om-butikken p {
+      font-size: 25px;
+    }
+    .prev, .next {
+      font-size: 25px;
+    }
+    .numbertext {
+      font-size: 20px;
+    }
+     .butikker {
+      width: 100%;
+      height: auto;
+    }
+    .flex-item-right p {
+      display: none;
+    }
+   
+    .flex-item-left {
+      width: 100%;
+    }
+    h2 {
+      font-size: 50px;
+    }
+    }
 
- @media screen and (min-width:1440px) {
- .butik-pulvis p {
-   height: 360px;
- }
+
+
+    @media screen and (max-width:1439px) {
+      h3 {
+        display: none;
+      }
  }
 
  @media screen and (min-width:2560px) {
-  .butik-pulvis p {
-    height: 630px;
-    font-size: 40px;
-  }
   h1 {
     font-size: 100px;
   }
-  .butik-pulvis h2 {
-   font-size: 80px;
- }
- .butik-pulvis-find h2 {
-  font-size: 80px;
-}.butik-pulvis-find h3 {
-  margin-bottom: 0px;
-  font-size: 50px;
-}
+  h2 {
+    font-size: 70px;
+  }
+  h3 {
+    font-size: 40px;
+  }
  .info p {
    font-size: 30px;
- }
-  .butik-pulvis img{
-   width: 50%;
- }
- .butik-pulvis-find p {
-   font-size: 40px;
  }
  #pil {
   width: 40px;
@@ -342,4 +314,17 @@ img {vertical-align: middle;}
 .doti {
   font-size: 40px;
 }
+.butikker {
+  width: 100%;
+  height: auto;
+}
+.flex-item-left {
+  width: 100%;
+  margin: 50px;
+}
+.flex-item-right {
+  width: 100%;
+  margin: 50px;
+}
   }
+
