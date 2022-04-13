@@ -16,7 +16,7 @@ h2 {
   font-size: 25px;
 }
 
-.info p{
+.hjalpeinformation p{
   font-size: 9px;
   margin-top: -45px;
   text-align: center;
@@ -75,7 +75,7 @@ h2 {
 .om-butikken p {
   font-size: 17px;
   background-image: url(../img/billeder/butik-billeder/Group\ 69.jpg);
-  margin: 12px;
+  margin: 15px;
 }
 
 /* Det næste lange stykke, er stile af vores profilbilleder galleri */
@@ -125,7 +125,9 @@ img {vertical-align: middle;}
   position: absolute;
   top: 0;
   margin-top: 30px;
+  margin: 15px;
 }
+
 
 /* The dots/bullets/indicators */
 .dot {
@@ -173,7 +175,7 @@ img {vertical-align: middle;}
  h1 {
    font-size: 50px;
  }
-.info p {
+.hjalpeinformation p {
   font-size: 15px;
  }
 }
@@ -192,6 +194,21 @@ img {vertical-align: middle;}
   h2 {
     font-size: 35px;
   }
+  .om-butikken p{
+    font-size: 20px;
+    margin: 20px;
+  }
+  #pil {
+    width: 5%;
+    margin: 20px;
+  }
+  .numbertext {
+    font-size: 20px;
+  }
+  .prev, .next {
+    font-size: 35px;
+    margin: 20px;
+  }
 }
 
 
@@ -206,62 +223,56 @@ img {vertical-align: middle;}
   h1 {
     font-size: 90px;
   }
- .info p {
+ .hjalpeinformation p {
    font-size: 20px;
  }
- #pil {
-  width: 20px;
-}
-.om-butikken p {
-  font-size: 25px;
-}
 .prev, .next {
   font-size: 25px;
 }
-.numbertext {
-  font-size: 20px;
-}
- 
 .flex-item-right p {
   font-size: 30px;
 }
 h2 {
   font-size: 40px;
 }
-
 .flex-item-left {
   width: 185%;
 }
+.om-butikken p{
+  font-size: 30px;
+  margin: 25px;
 }
-  @media screen and (min-width:1299px) {
-    #pil {
-      width: 30px;
-    }
-    .om-butikken p {
-      font-size: 30px;
-    }
-    .prev, .next {
-      font-size: 30px;
-    }
-    .numbertext {
-      font-size: 30px;
-    }
-    }
+#pil {
+  width: 4%;
+  margin: 30px;
+}
+.numbertext {
+  font-size: 30px;
+}
+.prev, .next {
+  font-size: 35px;
+  margin: 30px;
+}
+}
+
 
     @media screen and (min-width:1440px) {
-    
-     #pil {
-      width: 20px;
-    }
-    .om-butikken p {
-      font-size: 25px;
-    }
-    .prev, .next {
-      font-size: 25px;
-    }
-    .numbertext {
-      font-size: 20px;
-    }
+      .om-butikken p{
+        font-size: 40px;
+        margin: 50px;
+      }
+      #pil {
+        width: 3%;
+        margin: 50px;
+      }
+      .numbertext {
+        font-size: 40px;
+        margin: 50px;
+      }
+      .prev, .next {
+        font-size: 45px;
+        margin: 50px;
+      }
      .butikker {
       width: 100%;
       height: auto;
@@ -269,7 +280,6 @@ h2 {
     .flex-item-right p {
       display: none;
     }
-   
     .flex-item-left {
       width: 100%;
     }
@@ -277,8 +287,6 @@ h2 {
       font-size: 50px;
     }
     }
-
-
 
     @media screen and (max-width:1439px) {
       h3 {
@@ -296,20 +304,26 @@ h2 {
   h3 {
     font-size: 40px;
   }
- .info p {
+ .hjalpeinformation p {
    font-size: 30px;
  }
- #pil {
-  width: 40px;
+
+
+ .om-butikken p{
+  font-size: 50px;
+  margin: 100px;
 }
-.om-butikken p {
-  font-size: 40px;
-}
-.prev, .next {
-  font-size: 60px;
+#pil {
+  width: 3%;
+  margin: 100px;
 }
 .numbertext {
-  font-size: 40px;
+  font-size: 70px;
+  margin: 100px;
+}
+.prev, .next {
+  font-size: 55px;
+  margin: 100px;
 }
 .doti {
   font-size: 40px;
