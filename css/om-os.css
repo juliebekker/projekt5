@@ -1,89 +1,129 @@
+.teksttilinteresser {
+  background-color: aqua;
+}
+
 .logoplaceholder {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: -10px;
-  }
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10px;
+}
 
-  .logoplaceholder2 {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: -10px;
-  }
+.logoplaceholder2 {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10px;
+}
 
-  .logoplaceholder3 {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-  }
+.logoplaceholder3 {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10px;
+}
 
-  .logoplaceholder4 {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-  }
+.logoplaceholder4 {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10px;
+}
 
+.kassetilbilledtekst {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.billedteksttest {
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.billedteksttest2 {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+@media screen and (min-width: 480px) {
+  .logoplaceholder {
+  grid-area: img1;
+  width: 100%;
+  margin-bottom: -10%;
+}
+  
+.logoplaceholder2 {
+  grid-area: img2;
+  width: 100%;
+  margin-bottom: -10%;
+}
+
+.logoplaceholder3 {
+  grid-area: img3;
+  width: 100%;
+  margin-bottom: -10%;
+}
+
+.logoplaceholder4 {
+  grid-area: img4;
+  width: 100%;
+  margin-bottom: -10%;
+}
+
+.kassetilbilledtekst {
+  grid-area: bite1;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kassetilbilledtekst2 {
+  grid-area: bite2;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kassetilbilledtekst3 {
+  grid-area: bite3;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kassetilbilledtekst4 {
+  grid-area: bite4;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
   .billedteksttest {
-      text-align: center;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0%;
-    margin-bottom: 0%;
-  }
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
 
   .billedteksttest2 {
-    text-align: center;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-
-  @media screen and (min-width: 480px) {
-  .logoplaceholder {
-    grid-area: bill1;
-    width: 100%;
-    margin-bottom: -10%;
-  }
-  
-  .logoplaceholder2 {
-    grid-area: bill2;
-    width: 100%;
-    margin-bottom: -10%;
-  }
-
-  .logoplaceholder3 {
-    grid-area: bill3;
-    width: 100%;
-  }
-
-  .logoplaceholder4 {
-    grid-area: bill4;
-    width: 100%;
-  }
-
-  .billedteksttest {
-    grid-area: bill5;
-    text-align: center;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-
-  .billedteksttest2{
-    grid-area: bill6;
-    text-align: center;
+  text-align: center;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -100,8 +140,9 @@
           margin-right: auto;
           grid-template-columns: repeat(12, 1fr);
           grid-template-areas:
-          ". bill1 bill1 bill1 bill1 bill1 bill2 bill2 bill2 bill2 bill2 ."
-          ". bill5 bill5 bill5 bill5 bill5 bill6 bill6 bill6 bill6 bill6 ."
-          ". bill3 bill3 bill3 bill3 bill3 bill4 bill4 bill4 bill4 bill4 .";
+          ". img1 img1 img1 img1 img1 img2 img2 img2 img2 img2 ."
+          ". bite1 bite1 bite1 bite1 bite1 bite2 bite2 bite2 bite2 bite2 ."
+          ". img3 img3 img3 img3 img3 img4 img4 img4 img4 img4 ."
+          ". bite3 bite3 bite3 bite3 bite3 bite4 bite4 bite4 bite4 bite4 .";
     }
 }
