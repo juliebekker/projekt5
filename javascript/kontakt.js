@@ -1,15 +1,3 @@
-/*Loop og array*/
-
-var infomation = ["telefon", "+45 0000 0000", "email", "mulige.email@email.dk"];
-var output = document.getElementById('out');
-
-output.innerHTML += "<h1>hhh</h1>"
-for (var i = 0; i < information.length; i++) {
-   output.innerHTML += "<br>" + information[i];
-}
-
-
-
 /*Kontaktformular*/
 
 function myFunction() {
