@@ -5,8 +5,8 @@
 }
 
 .headerkasseknap {
-  width: 83.3333%;
-  background-color: aqua;
+  width: 65px;
+  background-color: red;
   margin-left: 8.33335%;
 }
 
@@ -82,7 +82,7 @@
 
 .miljobevidsthedsimg {
   grid-area: miimg;
-  width: 100%;
+  width: 83.3333%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -107,7 +107,7 @@
 }
 
 .headerkasseknap {
-  width: 66.6666%;
+  width: 65px;
   background-color: aqua;
   margin-left: 16.6667%;
 }
@@ -182,6 +182,15 @@
   margin-right: auto;
   margin-top: 0%;
   margin-bottom: 0%;
+}
+
+.miljobevidsthedsimg {
+  grid-area: miimg;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10px;
 }
 }
 
