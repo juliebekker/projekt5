@@ -1,3 +1,15 @@
+#tilbageknap {
+  text-align: left;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.headerkasseknap {
+  width: 83.3333%;
+  background-color: aqua;
+  margin-left: 8.33335%;
+}
+
 .headerkasse {
   width: 83.3333%;
   text-align: center;
@@ -14,7 +26,7 @@
 }
 
 .logoplaceholder {
-  width: 80%;
+  width: 83.3333%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -23,7 +35,7 @@
 }
 
 .logoplaceholder2 {
-  width: 80%;
+  width: 83.3333%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -31,7 +43,7 @@
 }
 
 .logoplaceholder3 {
-  width: 80%;
+  width: 83.3333%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -39,7 +51,7 @@
 }
 
 .logoplaceholder4 {
-  width: 80%;
+  width: 83.3333%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -47,7 +59,7 @@
 }
 
 .kassetilbilledtekst {
-  width: 80%;
+  width: 83.3333%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -61,26 +73,49 @@
 
 .billedteksttest2 {
   text-align: center;
-  width: 80%;
+  width: 83.3333%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0%;
   margin-bottom: 0%;
 }
 
-@media screen and (min-width: 480px) {
-  .logoplaceholder {
-  grid-area: img1;
+.miljobevidsthedsimg {
+  grid-area: miimg;
   width: 100%;
-  margin-bottom: -10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10px;
 }
 
+@media screen and (min-width: 480px) {
+
 .headerkasse {
-  width: 83.3333%;
+  width: 66.66666%;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
   background-color: aqua;
+}
+
+.interesserkasse {
+  width: 66.66666%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+}
+
+.headerkasseknap {
+  width: 66.6666%;
+  background-color: aqua;
+  margin-left: 16.6667%;
+}
+
+.logoplaceholder {
+  grid-area: img1;
+  width: 100%;
+  margin-bottom: -10%;
 }
   
 .logoplaceholder2 {
@@ -103,39 +138,38 @@
 
 .kassetilbilledtekst {
   grid-area: bite1;
-  width: 80%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  width: 100%
 }
 
 .kassetilbilledtekst2 {
   grid-area: bite2;
-  width: 80%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  width: 100%
 }
 
 .kassetilbilledtekst3 {
   grid-area: bite3;
-  width: 80%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  width: 100%
 }
 
 .kassetilbilledtekst4 {
   grid-area: bite4;
-  width: 80%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
   
   .billedteksttest {
   text-align: center;
-  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0%;
@@ -144,7 +178,6 @@
 
   .billedteksttest2 {
   text-align: center;
-  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0%;
@@ -152,18 +185,30 @@
 }
 }
 
-  @media screen and (min-width: 480px) {
-      #raekkeforbillederetogtotest {
-          display: grid;
-          grid-gap: 25px;
-          margin-left: auto;
-          margin-right: auto;
-          grid-template-columns: repeat(12, 1fr);
-          grid-template-areas:
-          ". inte inte inte inte inte inte inte inte inte inte ."
-          ". img1 img1 img1 img1 img1 img2 img2 img2 img2 img2 ."
-          ". bite1 bite1 bite1 bite1 bite1 bite2 bite2 bite2 bite2 bite2 ."
-          ". img3 img3 img3 img3 img3 img4 img4 img4 img4 img4 ."
-          ". bite3 bite3 bite3 bite3 bite3 bite4 bite4 bite4 bite4 bite4 .";
+@media screen and (min-width: 480px) {
+    #raekkeforbillederetogtotest {
+        display: grid;
+        grid-gap: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-areas:
+        ". . inte inte inte inte inte inte inte inte . ."
+        ". . img1 img1 img1 img1 img2 img2 img2 img2 . ."
+        ". . bite1 bite1 bite1 bite1 bite2 bite2 bite2 bite2 . ."
+        ". . img3 img3 img3 img3 img4 img4 img4 img4 . ."
+        ". . bite3 bite3 bite3 bite3 bite4 bite4 bite4 bite4 . .";
     }
+  }
+
+@media screen and (min-width: 480px) {
+  #raekkeforbillederetogtotest2 {
+      display: grid;
+      grid-gap: 25px;
+      margin-left: auto;
+      margin-right: auto;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-areas:
+      ". . miimg miimg miimg miimg miimg miimg miimg miimg . .";
+  } 
 }
