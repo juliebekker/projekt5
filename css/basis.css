@@ -5,24 +5,29 @@
     text-align: center;
     margin: 0;
 }
-#top-logo{
+#header-container{
     display: flex;
+    justify-content: space-around;
+}
+#top-logo{
     padding: 3%;
-    justify-content: center;
     background: none;
-
+    display: flex;
+    flex-direction: row;
 }
 .pulvis-logo{
-    width: 13%;
-    height: 65%;
+    width: 15%;
+    height: 60%;
     background: none;
 
 }
 .pulvis{
     font-family: 'Berkshire Swash';
-    font-size: 65px;
+    font-size: 80px;
     color: #794A44;
     background: none;
+    margin-left: 270px;
+    margin-top: 100px;
 }
 #menu{
     display: flex;
@@ -102,6 +107,16 @@ p {
 }
 
 @media(max-width:1024px){
+    .pulvis-logo{
+        width: 17%;
+        height: 60%;
+    
+    }
+    .pulvis{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
     #menu a{
         font-size: 20px;
     }
@@ -118,7 +133,13 @@ p {
         display: flex;
         flex-direction: row;
     }
+    .pulvis-logo{
+        width: 25%;
+        height: 60%;
+    }
     .pulvis{
+        margin-left: 90px;
+        margin-top: 85px;
         font-size: 40px;
     }
     /*burgermenu*/
@@ -243,15 +264,16 @@ p {
 
 }
 @media(max-width:480px){
-    .pulvis{
-        font-size: 23px;
-    }
     .pulvis-logo{
-        width: 28%;
-        height: 43%;
-
+        width: 45%;
+        height: 74%;
+        margin-top: 13px;
     }
-
+    .pulvis{
+        margin-left: 10px;
+        margin-top: 26px;
+        font-size: 25px;
+    }
     /* footer */
     #info-footer {
         background-color: blue;
