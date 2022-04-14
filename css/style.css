@@ -1,5 +1,7 @@
 *{
-    font-family: 'karla';
+  background-image: url(../img/billeder/butik-billeder/baggrund-web.jpg);
+  color: #6b3730;
+  font-family: 'Karla';
 }
 /*Billede af Hr og Fru Hansen med tekst over*/
 .hansen{
@@ -13,6 +15,7 @@
     position: absolute;
     margin-top: -250px;
     margin-left: 100px;
+    background: none;
 }
 .slogan{
     color: #FFFFFF;
@@ -21,24 +24,21 @@
     margin-top: -150px;
     margin-left: 105px;
     font-weight: 600;
-}
-.baggrund{
-    width: 100%;
-    height: auto;
+    background: none;
 }
 .main-container{
     display: flex;
     flex-direction: column;
     width: 900px;
     text-align: left;
-    margin-top: -900px;
     margin-left: 260px;
+    background: #F3F3F3;
 }
 .hvem-er-vi{
     font-weight: 600;
     font-size: 35px;
     color: #6B3730;
-    
+    background: none; 
 }
 .tekst-om{
     font-size: 25px;
@@ -46,18 +46,29 @@
     font-weight: 600;
     background-color: #F3F3F3;
     padding: 20px;
+    background: none;
 }
 .btn{
     width: 8rem;
     height: 4rem;
+    background: none;
     background-color: #1E2D63;
     border-radius: 10px;
+    
 }
 .btn a{
     font-size: 20px;
     font-weight: 600;
     color: #FFFFFF;
     text-decoration: none;
+    background: none;
+}
+.youtube-video{
+    text-align: center;
+}
+.youtube-video iframe{
+    width: 900px;
+    height: 508px;
 }
 @media(max-width:1024px){
     .hr-og-fru{
@@ -74,6 +85,10 @@
         width: 800px;
         margin-top: -650px;
         margin-left: 100px;
+    }
+    .youtube-video iframe{
+        width: 800px;
+        height: 450px;
     }
 }
 @media(max-width:768px){
@@ -105,8 +120,13 @@
     .btn a{
         font-size: 17px;
     }
+    .youtube-video iframe{
+        width: 600px;
+        height: 338px;
+    }
 }
 @media(max-width:480px){
+
     .hr-og-fru{
         font-size: 25px;
         margin-top: -70px;
@@ -129,10 +149,23 @@
         font-size: 13px;
     }
     .btn{
-        width: 5rem;
-        height: 2.5rem;
+        width: 6rem;
+        height: 2.3rem;
     }
     .btn a{
         font-size: 13px;
     }
+    .youtube-video{
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; 
+        height: 0;
+      }
+      .youtube-video iframe{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
 }

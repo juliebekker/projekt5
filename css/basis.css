@@ -1,17 +1,21 @@
 /*header med logo, overskrift og navbar*/
 .header{
+    background: none;
     background-color: #ECE4DD;
     text-align: center;
+    margin: 0;
 }
 #top-logo{
     display: flex;
     padding: 3%;
     justify-content: center;
+    background: none;
 
 }
 .pulvis-logo{
     width: 13%;
     height: 65%;
+    background: none;
 
 }
 .pulvis{
@@ -19,6 +23,7 @@
     font-family: 'Berkshire Swash';
     font-size: 65px;
     color: #794A44;
+    background: none;
 }
 #menu{
     display: flex;
@@ -26,12 +31,15 @@
     border-width:1px 0;
     font-family: 'Karla';
     font-weight: 600;
-
+}
+#menu ul{
+    background: none;
 }
 #menu li{
     display: inline;
     padding-right: 30px;
     cursor: pointer;
+    background: none;
 }
 #menu a{
     display:inline;
@@ -39,9 +47,11 @@
     text-decoration: none;
     font-weight: 600;
     font-size: 25px;
+    background: none;
 }
 #menu{
     display:inline-block;
+    background: none;
 }
 #menu a.active{
     color: #1E2D63;
