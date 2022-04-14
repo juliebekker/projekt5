@@ -26,7 +26,7 @@
 }
 
 .logoplaceholder {
-  width: 80%;
+  width: 83.3333%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -35,7 +35,7 @@
 }
 
 .logoplaceholder2 {
-  width: 80%;
+  width: 83.3333%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -43,7 +43,7 @@
 }
 
 .logoplaceholder3 {
-  width: 80%;
+  width: 83.3333%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -51,7 +51,7 @@
 }
 
 .logoplaceholder4 {
-  width: 80%;
+  width: 83.3333%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -90,18 +90,26 @@
 }
 
 @media screen and (min-width: 480px) {
-  .logoplaceholder {
-  grid-area: img1;
-  width: 100%;
-  margin-bottom: -10%;
-}
 
 .headerkasse {
-  width: 83.3333%;
+  width: 66.66666%;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
   background-color: aqua;
+}
+
+.interesserkasse {
+  width: 66.66666%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+}
+
+.logoplaceholder {
+  grid-area: img1;
+  width: 100%;
+  margin-bottom: -10%;
 }
   
 .logoplaceholder2 {
