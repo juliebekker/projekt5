@@ -5,7 +5,7 @@
 }
 
 .headerkasseknap {
-  width: 65px;
+  width: 19px;
   background-color: red;
   margin-left: 8.33335%;
 }
@@ -89,6 +89,11 @@
   margin-bottom: -10px;
 }
 
+.spacing {
+  display: block;
+  height: 85px;
+}
+
 @media screen and (min-width: 480px) {
 
 .headerkasse {
@@ -107,8 +112,8 @@
 }
 
 .headerkasseknap {
-  width: 65px;
-  background-color: aqua;
+  width: 19px;
+  background-color: red;
   margin-left: 16.6667%;
 }
 
@@ -191,6 +196,11 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -10px;
+}
+
+.spacing {
+  display: block;
+  height: 65px;
 }
 }
 
