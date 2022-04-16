@@ -1,3 +1,16 @@
+/*Array og loop*/
+
+var array = ["a", "b"]
+
+
+function printArray() {
+  var p = document.getElementById('out');
+
+  for (i = 0; i < array.length; i++)
+    p.innerHTML += array[i] + ('<br>');
+}
+
+
 /*Kontaktformular*/
 
 function myFunction() {
