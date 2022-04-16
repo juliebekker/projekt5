@@ -1,12 +1,11 @@
 #tilbageknap {
   text-align: left;
-  background-color: aqua;
+  background-color: red;
   cursor: pointer;
 }
 
 .headerkasseknap {
   width: 19px;
-  background-color: red;
   margin-left: 8.33335%;
 }
 
