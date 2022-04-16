@@ -1,14 +1,16 @@
 /*Array og loop*/
 
-var array = ["a", "b"]
-
+var array = ["<h3>TELEFON:</h3>", "+45 61 74 39 39", "<h3>E-MAIL:</h3>", "Mulig-email@gmail.com"]
 
 function printArray() {
   var p = document.getElementById('out');
 
   for (i = 0; i < array.length; i++)
-    p.innerHTML += array[i] + ('<br>');
+    p.innerHTML += array[i];
+
 }
+
+/*+ ('<br>')*/
 
 
 /*Kontaktformular*/
