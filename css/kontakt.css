@@ -1,4 +1,19 @@
 input {
   display: flex;
   flex-direction: column;
+  background-color: red;
+  color: white;
+  border-radius: none;
+  border: solid blue;
+  margin: 1rem 0rem;
+  padding: 1rem 3rem 1rem 0.5rem;
+}
+
+
+button {
+  border-radius: 0.5rem;
+  background-color: blue;
+  color: white;
+  padding: 0.5rem 2.3rem;
+  border: none;
 }
