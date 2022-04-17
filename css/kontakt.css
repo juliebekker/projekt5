@@ -69,11 +69,7 @@ input {
 }
 
 
-button {
-  background-color: #1E2D63;
-  color: #f7f4f1;
-  border-radius: 0.5rem;
-  border: none;
+.button {
   margin: 1rem 0rem;
   padding: 0.5rem 2.3rem;
 }

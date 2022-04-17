@@ -17,6 +17,13 @@ h3 {
   text-transform: uppercase;
 }
 
+/*Button*/
+button {
+  background-color: #1E2D63;
+  color: #f7f4f1;
+  border-radius: 0.5rem;
+  border: none;
+}
 
 /*header med logo, overskrift og navbar*/
 .header{
