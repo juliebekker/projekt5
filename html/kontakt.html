@@ -5,18 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/kontakt.css">
     <script type="text/javascript" src="../javascript/kontakt.js" defer></script>
-    <title></title>
+    <title>Konatak</title>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body onload="printArray()">
 
-    <div id="out"></div>
+    <div class="Kontaktinformationer">
+      <h2>Kontakt</h2>
+      <p id="out"></p>
+      <h3>Sociale medier</h3>
+    </div>
 
-    <input type="text" value="Navn..." id="navn" onfocus="myOnfocus1()" onblur="myOnblur1()"/>
-    <input type="text" value="Email..." id="email" onfocus="myOnfocus2()" onblur="myOnblur2()"/>
-    <input type="text" value="Emne..." id="emne" onfocus="myOnfocus3()" onblur="myOnblur3()"/>
-    <input type="text" value="Besked..." id="besked" onfocus="myOnfocus4()" onblur="myOnblur4()"/>
-    <button onclick="myFunction()">SEND</button>
-    <p id="result" ></p>
+
+    <div class="kontaktformular">
+      <input type="text" value="Navn..." id="navn" onfocus="myOnfocus1()" onblur="myOnblur1()"/>
+      <input type="text" value="Email..." id="email" onfocus="myOnfocus2()" onblur="myOnblur2()"/>
+      <input type="text" value="Emne..." id="emne" onfocus="myOnfocus3()" onblur="myOnblur3()"/>
+      <input type="text" value="Besked..." id="besked" onfocus="myOnfocus4()" onblur="myOnblur4()"/>
+      <button onclick="myFunction()">SEND</button>
+      <p id="result" ></p>
+    </div>
+
 
 
   </body>

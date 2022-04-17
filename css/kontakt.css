@@ -1,4 +1,92 @@
-input {
+/*Skal på fælles css*/
+
+body{
+  background-image: url(../img/billeder/butik-billeder/baggrund-web.jpg);
+  color: #6b3730;
+  font-family: 'Karla';
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-bottom: -1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+    font: 400 1rem 'Karla', arial, sans-serif;
+}
+
+/*style elementer specifikt til kontakt*/
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+
+.Kontaktinformationer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#out {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.kontaktformular {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  background-color: #f7f4f1;
+  color: #794A44;
+  border-radius: none;
+  border: solid #1E2D63;
+  margin: 0.5rem 0rem;
+  padding: 1rem 3rem 1rem 0.5rem;
+}
+
+#besked {
+  padding-bottom: 7rem;
+}
+
+
+button {
+  background-color: #1E2D63;
+  color: #f7f4f1;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 1rem 0rem;
+  padding: 0.5rem 2.3rem;
+}
+
+@media(max-width:768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media(max-width:1024px) {
+
 }
