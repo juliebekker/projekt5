@@ -1,6 +1,6 @@
 /*Array og loop*/
 
-var array = ["<h3>TELEFON:</h3>", "+45 61 74 39 39", "<h3>E-MAIL:</h3>", "Mulig-email@gmail.com"]
+var array = ["<h3>Telefon:</h3>", "+45 61 74 39 39", "<h3>E-mail:</h3>", "Mulig-email@gmail.com"]
 
 function printArray() {
   var p = document.getElementById('out');
@@ -39,7 +39,7 @@ function myFunction() {
 
 
   else {
-    document.getElementById("result").innerHTML = "Din besked er sendt, du vil få svar over mail inden længe";
+    document.getElementById("result").innerHTML = "Din besked er sendt, du vil få svar over mail inden længe.";
   }
 }
 
