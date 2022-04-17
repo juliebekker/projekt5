@@ -70,6 +70,7 @@ button {
     border-width:1px 0;
     font-family: 'Karla';
     font-weight: 600;
+    padding: 1.3rem;
 }
 #menu ul{
     background: none;
