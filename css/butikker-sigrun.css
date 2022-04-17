@@ -15,6 +15,15 @@ h1 {
 h2 {
   font-size: 25px;
 }
+
+.video {
+  width: 100%;
+  height: auto;
+ text-align: center;
+ margin-left: 0px;
+ margin-right: 0px;
+}
+
 /* Teksten under overskriften H1 */
 .hjalpeinformation p{
   font-size: 9px;
