@@ -25,6 +25,7 @@ button {
   border: none;
   margin: 1rem 0rem;
   padding: 0.5rem 2.3rem;
+  text-decoration: none;
 }
 
 /*header med logo, overskrift og navbar*/
