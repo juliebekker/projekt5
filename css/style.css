@@ -44,15 +44,7 @@ body{
     background: none;
     background-color: #F3F3F3;
 }
-.btn{
-    width: 8rem;
-    height: 4rem;
-    background: none;
-    background-color: #1E2D63;
-    border-radius: 10px;
-    
-}
-.btn a{
+.button a{
     font-size: 20px;
     font-weight: 600;
     color: #FFFFFF;
