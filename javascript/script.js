@@ -8,3 +8,4 @@ function printArray() {
     for (i = 0; i < array.length; i++)
     p.innerHTML += array[i];
 }
+//Cecilie JS slut
