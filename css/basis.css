@@ -2,7 +2,7 @@
 body{
   background-image: url(../img/billeder/butik-billeder/baggrund-web.jpg);
   color: #6b3730;
-  font-family: 'Karla';
+  font: 400 1rem 'Karla', arial, sans-serif;
 }
 
 h2 {
@@ -17,9 +17,6 @@ h3 {
   text-transform: uppercase;
 }
 
-p {
-    font: 400 1rem 'Karla', arial, sans-serif;
-}
 
 /*header med logo, overskrift og navbar*/
 .header{
