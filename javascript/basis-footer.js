@@ -15,10 +15,10 @@ for (let i = 0; i < footerInformationTwo.length; i++) {
 document.getElementById("opening-hours").innerHTML = textTwo;
 
 
-function openSocialMedia() {
-    if (document.getElementById("instagram-media").onclick) {
+function openSocialMedia(media) {
+    if (media == "instagram") {
         alert("Åben instagram?");
-    } else if (document.getElementById("facebook-media").onclick) {
+    } else if (media == "facebook") {
         alert("Åben facebook?");
     }
 }

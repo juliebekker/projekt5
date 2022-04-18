@@ -1,12 +1,18 @@
 /*Basis syle elementer*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body{
   background-image: url(../img/billeder/butik-billeder/baggrund-web.jpg);
   color: #6b3730;
-  font-family: 'Karla';
+  font: 400 1rem 'Karla', arial, sans-serif;
 }
 
 h2 {
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   font-weight: bold;
   text-transform: uppercase;
 
@@ -17,8 +23,14 @@ h3 {
   text-transform: uppercase;
 }
 
-p {
-    font: 400 1rem 'Karla', arial, sans-serif;
+/*Button*/
+button {
+  background-color: #1E2D63;
+  color: #f7f4f1;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 1rem 0rem;
+  padding: 0.5rem 2.3rem;
 }
 
 /*header med logo, overskrift og navbar*/
@@ -58,6 +70,7 @@ p {
     border-width:1px 0;
     font-family: 'Karla';
     font-weight: 600;
+    padding: 1.3rem;
 }
 #menu ul{
     background: none;

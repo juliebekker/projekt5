@@ -1,5 +1,5 @@
 /*Skal på fælles css*/
-
+/*
 body{
   background-image: url(../img/billeder/butik-billeder/baggrund-web.jpg);
   color: #6b3730;
@@ -22,7 +22,7 @@ h3 {
 p {
     font: 400 1rem 'Karla', arial, sans-serif;
 }
-
+*/
 /*style elementer specifikt til kontakt*/
 
 body {
@@ -69,11 +69,7 @@ input {
 }
 
 
-button {
-  background-color: #1E2D63;
-  color: #f7f4f1;
-  border-radius: 0.5rem;
-  border: none;
+.button {
   margin: 1rem 0rem;
   padding: 0.5rem 2.3rem;
 }
