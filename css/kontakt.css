@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin: 2rem 5rem 2rem 0rem;
 }
 
@@ -18,17 +18,17 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-color: #f7f4f1;
   padding: 1rem;
-  margin: 1rem;
+  margin: 1rem 1rem 1rem 0rem;
 }
 
 #social-media {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem 0rem 1rem 2.5rem;
+  margin: 1rem 1rem 1rem 0rem;
 }
 
 
@@ -45,7 +45,7 @@ input {
   background-color: #f7f4f1;
   color: #794A44;
   border-radius: none;
-  border: solid #1E2D63;
+  border: solid #794A44 0.1rem;
   margin: 0.5rem 0rem;
   padding: 1rem 3rem 1rem 0.5rem;
 }
@@ -69,14 +69,10 @@ input {
   }
 
   .kontaktformular {
-    margin: 2rem 0rem 2rem 0rem;
+    margin: 2rem 0rem 0rem 0rem;
   }
 
   .Kontaktinformationer {
-    margin: 2rem 0rem 2rem 0rem;
-  }
-
-  #social-media {
-    margin: 1rem 0rem 1rem 10rem;
+    margin: 0rem;
   }
 }
