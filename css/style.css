@@ -97,11 +97,7 @@ button a{
     .tekst-om{
         font-size: 17px;
     }
-    .btn{
-        width: 7rem;
-        height: 3rem;
-    }
-    .btn a{
+    button a{
         font-size: 17px;
     }
     .youtube-video iframe{
@@ -126,15 +122,12 @@ button a{
     }
     .hvem-er-vi{
         font-size: 22px;
+        text-align: center;
     }
     .tekst-om{
         font-size: 13px;
     }
-    .btn{
-        width: 6rem;
-        height: 2.3rem;
-    }
-    .btn a{
+    button a{
         font-size: 13px;
     }
     .youtube-video{
