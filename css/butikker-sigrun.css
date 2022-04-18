@@ -3,33 +3,29 @@ body {
   background-image: url(../img/billeder/butik-billeder/baggrund-web.jpg);
   color: #6b3730;
   font-family: 'Karla';
-  font-style: italic;
+  font-weight: 600;
 }
-/* Overskrift */
-h1 {
-  margin-bottom: 40px;
-  text-align: center;
-  font-size: 35px;
-}
-/* Overskrift i tekst box */
+/* Overskrifter */
 h2 {
-  font-size: 25px;
+  font-size: 22px;
+  text-align: center;
+  margin: 25px;
+  font-weight: 600;
 }
 
-.video {
-  width: 100%;
-  height: auto;
+.video iframe{
+  width: 90%;
+  height: 50%;
  text-align: center;
- margin-left: 0px;
- margin-right: 0px;
+ margin: 20px;
 }
 
 /* Teksten under overskriften H1 */
 .hjalpeinformation p{
-  font-size: 9px;
-  margin-top: -45px;
+  font-size: 10px;
   text-align: center;
   margin-bottom: 50px;
+  font-weight: 600;
 }
 /* Flexbox */
 * {
@@ -45,20 +41,21 @@ h2 {
 /* Bokse der indeholder billeder */
 .flex-item-left {
   background-color: #f1f1f1;
-  padding: 10px;
+  padding: 25px;
   flex: 50%;
   margin-top: 10px;
 }
 /* Boxe der indeholder tekst */
 .flex-item-right {
   background-color: #F3F3F3;
-  padding: 10px;
+  padding: 20px;
   flex: 50%;
   margin-top: 10px;
 }
 /* Selve teksten, inde i tekst box */
 .flex-item-right p {
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 600;
 }
 /* Selve billederne inde i billedbox */
 .butikker {
@@ -82,9 +79,11 @@ h2 {
 }
 /* Selve teksten i tekstfelterne, på undersiderne */
 .om-butikken p {
-  font-size: 17px;
+  font-size: 13px;
   background-image: url(../img/billeder/butik-billeder/Group\ 69.jpg);
-  margin: 15px;
+  margin: 25px;
+  padding: 20px;
+  font-weight: 600;
 }
 
 /* Her starter galleri */
@@ -181,166 +180,178 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
-
 /* Ændringer for siden < 768px */
 @media screen and (min-width:768px) {
-  h1 {
-    font-size: 50px;
-  }
- .hjalpeinformation p {
-   font-size: 15px;
-  }
-  .butikker {
-    width: 100%;
-    height: auto;
-  }
-  .flex-item-left {
-    width: 137%;
-  }
-  .flex-item-right p {
-    font-size: 20px;
-  }
-  h2 {
-    font-size: 35px;
-  }
-  .om-butikken p{
-    font-size: 20px;
-    margin: 20px;
-  }
-  #pil {
-    width: 5%;
-    margin: 20px;
-  }
-  .numbertext {
-    font-size: 20px;
-  }
-  .prev, .next {
-    font-size: 35px;
-    margin: 20px;
-  }
-}
+  .hjalpeinformation p {
+    font-size: 15px;
+   }
+   .flex-item-left {
+     margin-left: 80px;
+     margin-right: 80px;
+   }
+   .flex-item-right {
+     margin-left: 80px;
+     margin-right: 80px;
+   }
+   .flex-item-right p {
+     font-size: 17px;
+   }
+   h2 {
+     font-size: 25px;
+   }
+   .om-butikken p{
+     font-size: 17px;
+     margin-left: 80px;
+     margin-right: 80px;
+   }
+   #pil {
+     width: 5%;
+     margin: 20px;
+   }
+   .numbertext {
+     font-size: 20px;
+   }
+   .prev, .next {
+     font-size: 35px;
+     margin: 25px;
+   }
+   .video iframe {
+     height: 80%;
+ }
+ }
 
 /* Flexbox - vises som colone op til 800px */
 @media (max-width: 800px) {
   .flex-item-right, .flex-item-left {
-    flex: 100%;
+    flex: 50%;
   }
 }
+
 
 /* Ændringer for siden < 1024px */
 @media screen and (min-width:1024px) {
-  h1 {
-    font-size: 90px;
+  .hjalpeinformation p {
+    font-size: 20px;
   }
- .hjalpeinformation p {
-   font-size: 20px;
+ .prev, .next {
+   font-size: 25px;
  }
-.prev, .next {
-  font-size: 25px;
-}
-.flex-item-right p {
-  font-size: 30px;
-}
-h2 {
-  font-size: 40px;
-}
-.flex-item-left {
-  width: 185%;
-}
-.om-butikken p{
-  font-size: 30px;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-#pil {
-  width: 4%;
-  margin: 30px;
-}
-.numbertext {
-  font-size: 30px;
-}
-.prev, .next {
-  font-size: 35px;
-  margin: 30px;
+ .flex-item-right p {
+   font-size: 25px;
  }
-}
-
-/* Ændringer for siden < 1440px */
- @media screen and (min-width:1440px) {
-  #pil {
-  width: 3%;
-  margin: 50px;
+ h2 {
+   font-size: 35px;
+ }
+ .om-butikken p{
+   font-size: 25px;
+   margin-left: 10px;
+   margin-right: 10px;
+ }
+ .om-butikken {
+   margin-left: 100px;
+   margin-right: 100px;
+ }
+ #pil {
+   width: 4%;
+   margin: 30px;
  }
  .numbertext {
-  font-size: 40px;
-  margin: 50px;
-  }
-  .prev, .next {
-   font-size: 45px;
-   margin: 50px;
-   }
-   .butikker {
-    width: 100%;
-    height: auto;
-    }
-    .flex-item-right p {
-    display: none;
-    }
-    .flex-item-left {
-      width: 100%;
-    }
-    h2 {
-      font-size: 50px;
-    }
-    }
-
-    /* Siden viser h3 ved < 1439px */
-    @media screen and (max-width:1439px) {
-      h3 {
-        display: none;
-      }
- }
-
-/* Ændringer for siden < 2560px */
- @media screen and (min-width:2560px) {
-  h1 {
-    font-size: 100px;
-  }
-  h2 {
-    font-size: 70px;
-  }
-  h3 {
-    font-size: 40px;
-  }
- .hjalpeinformation p {
    font-size: 30px;
  }
-#pil {
-  width: 3%;
-  margin: 100px;
-}
-.numbertext {
-  font-size: 70px;
-  margin: 100px;
-}
-.prev, .next {
-  font-size: 55px;
-  margin: 100px;
-}
-.doti {
-  font-size: 40px;
-}
-.butikker {
-  width: 100%;
-  height: auto;
-}
-.flex-item-left {
-  width: 100%;
-  margin: 50px;
-}
-.flex-item-right {
-  width: 100%;
-  margin: 50px;
-}
+ .prev, .next {
+   font-size: 35px;
+   margin: 30px;
   }
+  .flex-item-left {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 85px;
+    padding-bottom: 85px;
 
+  }
+  .flex-item-right {
+    margin-left: 0px;
+    margin-right: 0px;
+    flex: 40%;
+  }
+ }
+
+  /* Ændringer for siden < 1440px */
+  @media screen and (min-width:1440px) {
+    #pil {
+    width: 3%;
+    margin: 50px;
+   }
+   .numbertext {
+    font-size: 40px;
+    margin: 50px;
+    }
+    .prev, .next {
+     font-size: 45px;
+     margin: 50px;
+     }
+    .flex-item-right p {
+      display: none;
+      }
+      h2 {
+        font-size: 40px;
+      }
+      .flex-item-left {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+      .flex-item-right {
+        flex: 50%;
+      }
+      .om-butikken p{
+        margin-left: 150px;
+        margin-right: 150px;
+      }
+   }
+      /* Siden viser h3 ved < 1439px */
+      @media screen and (max-width:1439px) {
+        h3 {
+          display: none;
+        }
+   }
+
+     /* Ændringer for siden < 2560px */
+     @media screen and (min-width:2560px) {
+      h2 {
+        font-size: 60px;
+      }
+      h3 {
+        font-size: 40px;
+      }
+     .hjalpeinformation p {
+       font-size: 30px;
+     }
+    #pil {
+      width: 3%;
+      margin: 100px;
+    }
+    .numbertext {
+      font-size: 70px;
+      margin: 100px;
+    }
+    .prev, .next {
+      font-size: 55px;
+      margin: 100px;
+    }
+    .doti {
+      font-size: 40px;
+    }
+    .flex-item-right {
+      flex: 60%;
+    }
+    .flex-item-left {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    .om-butikken p{
+      margin-left: 700px;
+      margin-right: 700px;
+    }
+      }
