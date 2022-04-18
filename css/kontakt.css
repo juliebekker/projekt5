@@ -1,34 +1,9 @@
-/*Skal på fælles css*/
-/*
-body{
-  background-image: url(../img/billeder/butik-billeder/baggrund-web.jpg);
-  color: #6b3730;
-  font-family: 'Karla';
-}
-
-h2 {
-  font-size: 1.7rem;
-  margin-bottom: -1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-
-}
-
-h3 {
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-p {
-    font: 400 1rem 'Karla', arial, sans-serif;
-}
-*/
 /*style elementer specifikt til kontakt*/
 
-body {
+.kontakt {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: baseline;
 }
 
@@ -38,6 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 2rem 5rem 2rem 0rem;
 }
 
 #out {
@@ -53,6 +29,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 2rem 0rem 2rem 5rem;
 }
 
 input {
@@ -75,14 +52,18 @@ input {
 }
 
 @media(max-width:768px) {
-  body {
+  .kontakt {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-}
 
-@media(max-width:1024px) {
+  .kontaktformular {
+    margin: 2rem 0rem 2rem 0rem;
+  }
 
+  .Kontaktinformationer {
+    margin: 2rem 0rem 2rem 0rem;
+  }
 }
