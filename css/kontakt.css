@@ -21,7 +21,7 @@
   align-items: flex-start;
   background-color: #f7f4f1;
   padding: 1rem;
-  margin: 1rem 1rem 1rem 0rem;
+  margin: 2rem 1rem 2rem 0rem;
 }
 
 #social-media {
@@ -74,5 +74,9 @@ input {
 
   .Kontaktinformationer {
     margin: 0rem;
+  }
+
+  #out {
+    margin: 1rem 1rem 1rem 0rem;
   }
 }
