@@ -13,12 +13,10 @@ h2 {
   font-weight: 600;
 }
 
-.video iframe{
-  width: 90%;
-  height: 50%;
- text-align: center;
- margin: 20px;
-}
+
+.video {
+  text-align: center;
+ }
 
 /* Teksten under overskriften H1 */
 .hjalpeinformation p{
@@ -215,9 +213,7 @@ img {vertical-align: middle;}
      font-size: 35px;
      margin: 25px;
    }
-   .video iframe {
-     height: 80%;
- }
+  
  }
 
 /* Flexbox - vises som colone op til 800px */
