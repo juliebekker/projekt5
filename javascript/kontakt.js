@@ -39,7 +39,7 @@ function myFunction() {
 
 
   else {
-    document.getElementById("result").innerHTML = "Din besked er sendt, du vil få svar over mail inden længe.";
+    alert('Din besked er sendt, du vil få svar over mail inden længe.');
   }
 }
 

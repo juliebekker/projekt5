@@ -1,33 +1,89 @@
 <!DOCTYPE html>
 <html lang="dk" dir="ltr">
   <head>
+
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Konatak</title>
+
     <link rel="stylesheet" href="../css/kontakt.css">
     <link rel="stylesheet" href="../css/basis.css">
+    <link rel="stylesheet" href="../css/style.css">
+
     <script type="text/javascript" src="../javascript/kontakt.js" defer></script>
-    <title>Konatak</title>
+    <script src="../javascript/basis-footer.js" defer></script>
+
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+
   </head>
   <body onload="printArray()">
 
-    <div class="Kontaktinformationer">
-      <h2>Kontakt</h2>
-      <p id="out"></p>
-      <h3>Sociale medier</h3>
-    </div>
+    <header>
+        <div class="header">
+            <div id="top-logo">
+              <img src="../img/pulvis-logo.png" alt="pulvis-logo" class="pulvis-logo">
+              <h1 class="pulvis">Butik Pulvis</h1>
+            </div>
+            <!--Burgermenu og navbar-->
+            <div id="burgermenu">
+              <span></span>
+            </div>
+            <div id="menu">
+              <ul>
+                  <li><a href="index.html">FORSIDE</a></li>
+                  <li><a href="genbrugs-forretninger-odense.html">BUTIKKER</a></li>
+                  <li><a href="boligrydning-butik-pulvis.html">BOLIGRYDNING</a></li>
+                  <li><a href="om-os.html">OM OS</a></li>
+                  <li><a href="kontakt.html" class="active">KONTAKT</a></li>
+              </ul>
+              <script src="../javascript/basis.js" defer></script>
+            </div>
+            <br><br><br>
+          </div>
+    </header>
+
+    <main>
+      <div class="kontakt">
+
+        <div class="Kontaktinformationer">
+          <h2>Kontakt</h2>
+          <p id="out"></p>
+          <h3>Sociale medier</h3>
+        </div>
 
 
-    <div class="kontaktformular">
-      <input type="text" value="Navn..." id="navn" onfocus="myOnfocus1()" onblur="myOnblur1()"/>
-      <input type="text" value="Email..." id="email" onfocus="myOnfocus2()" onblur="myOnblur2()"/>
-      <input type="text" value="Emne..." id="emne" onfocus="myOnfocus3()" onblur="myOnblur3()"/>
-      <input type="text" value="Besked..." id="besked" onfocus="myOnfocus4()" onblur="myOnblur4()"/>
-      <button class="button" onclick="myFunction()">SEND</button>
-      <p id="result" ></p>
-    </div>
+        <div class="kontaktformular">
+          <input type="text" value="Navn..." id="navn" onfocus="myOnfocus1()" onblur="myOnblur1()"/>
+          <input type="text" value="Email..." id="email" onfocus="myOnfocus2()" onblur="myOnblur2()"/>
+          <input type="text" value="Emne..." id="emne" onfocus="myOnfocus3()" onblur="myOnblur3()"/>
+          <input type="text" value="Besked..." id="besked" onfocus="myOnfocus4()" onblur="myOnblur4()"/>
+          <button class="button" onclick="myFunction()">SEND</button>
+        </div>
 
+      </div>
+    </main>
+
+    <footer>
+      <div id="info-footer">
+        <div class="contact-block">
+          <div class="contact-block-one">
+            <div class="line"></div>
+            <div id="address-contact"></div>
+          </div>
+          <div class="contact-block-two">
+            <div class="line"></div>
+            <div id="opening-hours"></div>
+          </div>
+        </div>
+        <div id="social-media">
+          <img id="facebook-media" alt="Facebook logo" onclick="openSocialMedia('facebook')" src="../img/facebook-logo.png"/>
+          <img id="instagram-media" alt="Instagram logo" onclick="openSocialMedia('instagram')" src="../img/instagram-logo.png"/>
+        </div>
+      </div>
+    </footer>
 
 
   </body>
