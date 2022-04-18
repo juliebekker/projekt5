@@ -1,6 +1,6 @@
 /*Array og loop*/
 
-var array = ["<h3>Telefon:</h3>", "+45 61 74 39 39", "<h3>E-mail:</h3>", "Mulig-email@gmail.com"]
+var array = ["<h3>Telefon:</h3>", "+45 61 74 39 39", "<br>", "<br>", "<h3>E-mail:</h3>", "Mulig-email@gmail.com"]
 
 function printArray() {
   var p = document.getElementById('out');

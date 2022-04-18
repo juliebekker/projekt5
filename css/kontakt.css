@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   margin: 2rem 0rem 2rem 5rem;
 }
 
@@ -70,6 +70,7 @@ input {
 
   .kontaktformular {
     margin: 2rem 0rem 0rem 0rem;
+    align-items: center;
   }
 
   .Kontaktinformationer {
