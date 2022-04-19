@@ -44,10 +44,7 @@ button {
     text-align: center;
     margin: 0;
 }
-#header-container{
-    display: flex;
-    justify-content: space-around;
-}
+
 #top-logo{
     padding: 3%;
     background: none;
