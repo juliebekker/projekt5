@@ -1,6 +1,7 @@
 #tilbageknap {
   text-align: left;
   cursor: pointer;
+  width: 15px;
 }
 
 .headerkasseknap {
@@ -109,6 +110,12 @@
 }
 
 @media screen and (min-width: 480px) {
+
+#tilbageknap {
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+}
 
 .headerkasse {
   width: 66.66666%;
