@@ -159,6 +159,10 @@ button {
 
 }
 @media(max-width:768px){
+  h2 {
+    font-size: 1.6rem;
+  }
+
     .header{
         display: flex;
         flex-direction: row;
