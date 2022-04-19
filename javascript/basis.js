@@ -8,15 +8,4 @@
     this.classList.toggle("close");
     overlay.classList.toggle("overlay");
   });
-
-//Herunder er kommentarboks lavet ved brug af "getElementById", som også er hentet fra DOM.
-/*  let send= document.getElementById("post");
-  send.addEventListener("click", function(){
-    let commentBoxValue= document.getElementById("comment-box").ariaValueMax;
-
-    let li = document.createElement("li");
-    let text = document.createTextNode(commentBoxValue);
-    li.appendChild(text);
-    document.getElementById("unordered").appendChild(li);
-  });*/
 //Cecilie JS slut
