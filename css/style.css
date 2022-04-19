@@ -1,4 +1,4 @@
-/* body{
+body{
   background-image: url(../img/billeder/butik-billeder/baggrund-web.jpg);
   color: #6b3730;
   font-family: 'Karla';
@@ -38,16 +38,16 @@
     background: none;
 }
 .tekst-om{
-   /* font-size: 25px; */
+   font-size: 25px;
     color: #6B3730;
- /*   font-weight: 600; */
+    font-weight: 600;
     padding: 20px;
     background: none;
     background-color: #F3F3F3;
 }
 button a{
- /*   font-size: 20px; */
- /*   font-weight: 600; */
+    font-size: 20px;
+    font-weight: 600;
     color: #FFFFFF;
     text-decoration: none;
     background: none;
@@ -61,12 +61,12 @@ button a{
 }
 @media(max-width:1024px){
     .hr-og-fru{
-     /*   font-size: 70px; */
+        font-size: 70px;
         margin-top: -200px;
         margin-left: 30px;
     }
     .slogan{
-      /*  font-size: 35px; */
+        font-size: 35px; 
         margin-top: -115px;
         margin-left: 35px;
     }
@@ -80,12 +80,12 @@ button a{
 }
 @media(max-width:768px){
     .hr-og-fru{
-      /*  font-size: 50px; */
+        font-size: 50px;
         margin-top: -150px;
         margin-left: 20px;
     }
     .slogan{
-     /*   font-size: 25px; */
+        font-size: 25px;
         margin-top: -90px;
         margin-left: 25px;
     }
@@ -93,13 +93,13 @@ button a{
         width: 600px;
     }
     .hvem-er-vi{
-     /*   font-size: 25px; */
+     font-size: 25px;
     }
     .tekst-om{
-      /*  font-size: 17px; */
+     font-size: 17px;
     }
     button a{
-      /*  font-size: 17px; */
+    font-size: 17px;
     }
     .youtube-video iframe{
         width: 600px;
@@ -109,12 +109,12 @@ button a{
 @media(max-width:480px){
 
     .hr-og-fru{
-       /* font-size: 25px; */
+        font-size: 25px;
         margin-top: -70px;
         margin-left: 10px;
     }
     .slogan{
-     /*   font-size: 14px; */
+        font-size: 14px;
         margin-top: -38px;
         margin-left: 11px;
     }
@@ -122,14 +122,14 @@ button a{
         width: 250px;
     }
     .hvem-er-vi{
-      /*  font-size: 22px; */
+        font-size: 22px;
         text-align: center;
     }
     .tekst-om{
-      /*  font-size: 13px; */
+      font-size: 13px;
     }
     button a{
-      /*  font-size: 13px; */
+      font-size: 13px;
     }
     .youtube-video{
         position: relative;
