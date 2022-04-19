@@ -13,7 +13,7 @@ function printAfSamarbejdspartnere(næsteelement) {
 
 let aktivelleroverstået = "aktiv";
 
-if (aktivelleroverstået == "overstået") {
+if (aktivelleroverstået == "aktiv") {
   document.getElementById("midlertidiginformation").innerHTML = "Værd opmærksom på, at i løbet af denne måde sætter særligt fokus på hvordan man kan komme af med sit affald på den mest hensynsmæssige måde";
 } else {
   document.getElementById("midlertidiginformation").style.display = "none";

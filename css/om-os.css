@@ -23,6 +23,22 @@
   margin-top: 5px;
 }
 
+.tekstpadding {
+  padding: 10px;
+}
+
+#listeoverpartnereoverskrift {
+  padding: 10px;
+}
+
+#midlertidiginformation {
+  padding: 10px;
+}
+
+#listeoverpartnere {
+  padding: 10px;
+}
+
 .logoplaceholder {
   width: 83.3333%;
   display: block;
