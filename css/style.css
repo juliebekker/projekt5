@@ -3,7 +3,7 @@ body{
   color: #6b3730;
   font-family: 'Karla';
 }
-/*Billede af Hr og Fru Hansen med tekst over*/ 
+/*Billede af Hr og Fru Hansen med tekst over*/
 .hansen{
     width: 100%;
     height: auto;
@@ -19,7 +19,7 @@ body{
 }
 .slogan{
     color: #FFFFFF;
-   font-size: 40px;
+    font-size: 40px;
     position: absolute;
     margin-top: -150px;
     margin-left: 105px;
@@ -34,7 +34,7 @@ body{
     width: 900px;
 }
 
-.hvem-er-vi{ 
+.hvem-er-vi{
     background: none;
 }
 .tekst-om{
@@ -66,7 +66,7 @@ button a{
         margin-left: 30px;
     }
     .slogan{
-        font-size: 35px; 
+        font-size: 35px;
         margin-top: -115px;
         margin-left: 35px;
     }
