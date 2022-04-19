@@ -25,7 +25,7 @@
   margin: 2rem 1rem 2rem 0rem;
 }
 
-#social-media {
+#social-media-kontakt {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,7 +45,6 @@
 input {
   background-color: #f7f4f1;
   color: #794A44;
-  border-radius: none;
   border: solid #794A44 0.1rem;
   margin: 0.5rem 0rem;
   padding: 1rem 3rem 1rem 0.5rem;
