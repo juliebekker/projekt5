@@ -1,6 +1,5 @@
 #tilbageknap {
   text-align: left;
-  background-color: aqua;
   cursor: pointer;
 }
 
@@ -14,14 +13,30 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: aqua;
 }
 
 .interesserkasse {
   width: 83.3333%;
   margin-left: auto;
   margin-right: auto;
-  background-color: aqua;
+  background-color: #f7f4f1;
+  margin-top: 5px;
+}
+
+.tekstpadding {
+  padding: 10px;
+}
+
+#listeoverpartnereoverskrift {
+  padding: 10px;
+}
+
+#midlertidiginformation {
+  padding: 10px;
+}
+
+#listeoverpartnere {
+  padding: 10px;
 }
 
 .logoplaceholder {
@@ -100,19 +115,16 @@
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  background-color: aqua;
 }
 
 .interesserkasse {
   width: 66.66666%;
   margin-left: auto;
   margin-right: auto;
-  background-color: aqua;
 }
 
 .headerkasseknap {
   width: 19px;
-  background-color: aqua;
   margin-left: 16.6667%;
 }
 

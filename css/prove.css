@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-body {
+body{
   background-image: url(../img/billeder/butik-billeder/baggrund-web.jpg);
   color: #6b3730;
   font: 'Karla';
@@ -282,11 +282,6 @@ button {
     #facebook-media, #instagram-media {
         height: 3rem;
     }
-
-    /*font*/
-  /*  p {
-        font-size: 0.8rem;
-    }*/
 
 
 }
