@@ -1,18 +1,9 @@
-/*Grundlæggende indhold, er knyttet til alle 4 sider - butikker*/
-body {
-  background-image: url(../img/billeder/butik-billeder/baggrund-web.jpg);
-  color: #6b3730;
-  font-family: 'Karla';
-  font-weight: 600;
-}
+
 /* Overskrifter */
 h2 {
-  font-size: 22px;
   text-align: center;
   margin: 25px;
-  font-weight: 600;
 }
-
 
 .video {
   text-align: center;
@@ -20,7 +11,6 @@ h2 {
 
 /* Teksten under overskriften H1 */
 .hjalpeinformation p{
-  font-size: 10px;
   text-align: center;
   margin-bottom: 50px;
   font-weight: 600;
@@ -52,7 +42,6 @@ h2 {
 }
 /* Selve teksten, inde i tekst box */
 .flex-item-right p {
-  font-size: 13px;
   font-weight: 600;
 }
 /* Selve billederne inde i billedbox */
@@ -77,7 +66,6 @@ h2 {
 }
 /* Selve teksten i tekstfelterne, på undersiderne */
 .om-butikken p {
-  font-size: 13px;
   background-image: url(../img/billeder/butik-billeder/Group\ 69.jpg);
   margin: 25px;
   padding: 20px;
@@ -97,7 +85,7 @@ img {vertical-align: middle;}
 }
 
 /* pilene frem og tilbage */
-.prev, .next {
+.prev, .next { 
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -126,7 +114,7 @@ img {vertical-align: middle;}
 /* Nummer tekst (1/6) */
 .numbertext {
   color: #6b3730;
-  font-size: 12px;
+ /* font-size: 12px; */
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -180,9 +168,6 @@ img {vertical-align: middle;}
 
 /* Ændringer for siden < 768px */
 @media screen and (min-width:768px) {
-  .hjalpeinformation p {
-    font-size: 15px;
-   }
    .flex-item-left {
      margin-left: 80px;
      margin-right: 80px;
@@ -191,14 +176,7 @@ img {vertical-align: middle;}
      margin-left: 80px;
      margin-right: 80px;
    }
-   .flex-item-right p {
-     font-size: 17px;
-   }
-   h2 {
-     font-size: 25px;
-   }
    .om-butikken p{
-     font-size: 17px;
      margin-left: 80px;
      margin-right: 80px;
    }
@@ -206,14 +184,9 @@ img {vertical-align: middle;}
      width: 5%;
      margin: 20px;
    }
-   .numbertext {
-     font-size: 20px;
-   }
    .prev, .next {
-     font-size: 35px;
      margin: 25px;
    }
-  
  }
 
 /* Flexbox - vises som colone op til 800px */
@@ -223,23 +196,9 @@ img {vertical-align: middle;}
   }
 }
 
-
 /* Ændringer for siden < 1024px */
 @media screen and (min-width:1024px) {
-  .hjalpeinformation p {
-    font-size: 20px;
-  }
- .prev, .next {
-   font-size: 25px;
- }
- .flex-item-right p {
-   font-size: 25px;
- }
- h2 {
-   font-size: 35px;
- }
  .om-butikken p{
-   font-size: 25px;
    margin-left: 10px;
    margin-right: 10px;
  }
@@ -251,11 +210,7 @@ img {vertical-align: middle;}
    width: 4%;
    margin: 30px;
  }
- .numbertext {
-   font-size: 30px;
- }
  .prev, .next {
-   font-size: 35px;
    margin: 30px;
   }
   .flex-item-left {
@@ -279,18 +234,13 @@ img {vertical-align: middle;}
     margin: 50px;
    }
    .numbertext {
-    font-size: 40px;
     margin: 50px;
     }
     .prev, .next {
-     font-size: 45px;
      margin: 50px;
      }
     .flex-item-right p {
       display: none;
-      }
-      h2 {
-        font-size: 40px;
       }
       .flex-item-left {
         margin-left: 0px;
@@ -315,29 +265,15 @@ img {vertical-align: middle;}
 
      /* Ændringer for siden < 2560px */
      @media screen and (min-width:2560px) {
-      h2 {
-        font-size: 60px;
-      }
-      h3 {
-        font-size: 40px;
-      }
-     .hjalpeinformation p {
-       font-size: 30px;
-     }
     #pil {
       width: 3%;
       margin: 100px;
     }
     .numbertext {
-      font-size: 70px;
       margin: 100px;
     }
     .prev, .next {
-      font-size: 55px;
       margin: 100px;
-    }
-    .doti {
-      font-size: 40px;
     }
     .flex-item-right {
       flex: 60%;
