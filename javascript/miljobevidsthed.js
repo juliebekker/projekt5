@@ -1,3 +1,5 @@
+//tobias del 2 ud af 2 start
+
 let samarbejdspartnere = ["- Røde kors", "- Kirkens korshær", "- Red barnet", "- Folkekirkens nødhjælp"];
 
 let citationstegn = "";
@@ -16,3 +18,5 @@ if (aktivelleroverstået == "overstået") {
 } else {
   document.getElementById("midlertidiginformation").style.display = "none";
 }
+
+//tobias del 2 ud af 2 slut

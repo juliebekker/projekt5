@@ -1,6 +1,6 @@
 #tilbageknap {
   text-align: left;
-  background-color: red;
+  background-color: aqua;
   cursor: pointer;
 }
 
@@ -112,7 +112,7 @@
 
 .headerkasseknap {
   width: 19px;
-  background-color: red;
+  background-color: aqua;
   margin-left: 16.6667%;
 }
 
