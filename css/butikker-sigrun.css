@@ -24,7 +24,7 @@
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  margin: 20px;
+  margin: 30px;
 }
 /* Bokse der indeholder billeder */
 .flex-item-left {
@@ -168,13 +168,16 @@ img {vertical-align: middle;}
 
 /* Ændringer for siden < 768px */
 @media screen and (min-width:768px) {
+  .flex-container {
+    margin: 0px;
+  }
    .flex-item-left {
      margin-left: 80px;
      margin-right: 80px;
    } 
    .flex-item-right {
      margin-left: 80px;
-     margin-right: 80px;
+     margin-right: 135px;
    }
    .om-butikken p{
      margin-left: 80px;
@@ -198,6 +201,9 @@ img {vertical-align: middle;}
 
 /* Ændringer for siden < 1024px */
 @media screen and (min-width:1024px) {
+  .flex-container {
+    margin: 100px;
+}
  .om-butikken p{
    margin-left: 10px;
    margin-right: 10px;
@@ -223,7 +229,8 @@ img {vertical-align: middle;}
   .flex-item-right {
     margin-left: 0px;
     margin-right: 0px;
-    flex: 40%;
+    flex: 30%;
+    padding-top: 95px;
   }
  }
 

@@ -45,12 +45,12 @@ body{
     background: none;
     background-color: #F3F3F3;
 }
-button a{
+.button a {
     font-size: 20px;
     font-weight: 600;
     color: #FFFFFF;
     text-decoration: none;
-    background: none;
+    
 }
 .youtube-video{
     text-align: center;
@@ -58,7 +58,9 @@ button a{
 .youtube-video iframe{
     width: 900px;
     height: 508px;
+    border: 0em;
 }
+
 @media(max-width:1024px){
     .hr-og-fru{
         font-size: 70px;
