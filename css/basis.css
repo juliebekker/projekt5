@@ -8,7 +8,7 @@
 body {
   background-image: url(../img/billeder/butik-billeder/baggrund-web.jpg);
   color: #6b3730;
-  font: 'Karla';
+  font-family: 'Karla';
 }
 
 p {

@@ -33,9 +33,9 @@ body{
 .main-container{
     width: 900px;
 }
-/*.hvem-er-vi{
+.hvem-er-vi{
     background: none;
-}*/
+}
 .tekst-om{
     font-size: 25px;
     color: #6B3730;
