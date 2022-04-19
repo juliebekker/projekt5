@@ -8,7 +8,11 @@
 body{
   background-image: url(../img/billeder/butik-billeder/baggrund-web.jpg);
   color: #6b3730;
-  font: 400 1rem 'Karla', arial, sans-serif;
+  font: 'Karla', arial, sans-serif;
+}
+
+p {
+  font: 1rem 'Karla';
 }
 
 h2 {
@@ -260,7 +264,7 @@ button {
         color: #1E2D63;
     }
     /* footer */
-   
+
     .contact-block {
         flex-direction: column;
         margin: 1rem 1rem 1rem 1rem;
@@ -297,5 +301,5 @@ button {
         margin-top: 26px;
         font-size: 25px;
     }
-   
+
 }
