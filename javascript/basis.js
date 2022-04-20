@@ -1,4 +1,4 @@
-//alert("tjek om js virker!");
+alert("Denne hjemmeside er et studieprojekt i samarbejde med Butik Pulvis");
 //Cecilie JS start
   //Herunder er burgermenu lavet ved brug af "getElementById", som er hentet fra DOM.
 
