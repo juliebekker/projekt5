@@ -45,8 +45,9 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -10px;
+  margin-bottom: 5px;
   cursor: pointer;
+  margin-top: 45px;
 }
 
 .logoplaceholder2 {
@@ -54,7 +55,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -10px;
+  margin-top: 45px;
 }
 
 .logoplaceholder3 {
@@ -62,7 +63,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -10px;
+  margin-bottom: 5px;
+  margin-top: 45px;
 }
 
 .logoplaceholder4 {
@@ -70,7 +72,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -10px;
+  margin-bottom: 5px;
+  margin-top: 45px;
 }
 
 .kassetilbilledtekst {
@@ -109,7 +112,7 @@
   height: 85px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 700px) {
 
 #tilbageknap {
   text-align: left;
@@ -138,25 +141,25 @@
 .logoplaceholder {
   grid-area: img1;
   width: 100%;
-  margin-bottom: -10%;
+  margin-bottom: 10px;
 }
   
 .logoplaceholder2 {
   grid-area: img2;
   width: 100%;
-  margin-bottom: -10%;
+  margin-bottom: 10px;
 }
 
 .logoplaceholder3 {
   grid-area: img3;
   width: 100%;
-  margin-bottom: -10%;
+  margin-bottom: 10px;
 }
 
 .logoplaceholder4 {
   grid-area: img4;
   width: 100%;
-  margin-bottom: -10%;
+  margin-bottom: 10px;
 }
 
 .kassetilbilledtekst {
@@ -164,7 +167,8 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 100%
+  width: 100%;
+  margin-top: -20px;
 }
 
 .kassetilbilledtekst2 {
@@ -172,7 +176,8 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 100%
+  width: 100%;
+  margin-top: -20px;
 }
 
 .kassetilbilledtekst3 {
@@ -180,7 +185,8 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 100%
+  width: 100%;
+  margin-top: -20px;
 }
 
 .kassetilbilledtekst4 {
@@ -189,6 +195,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  margin-top: -20px;
 }
   
   .billedteksttest {
@@ -222,7 +229,7 @@
 }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 700px) {
     #raekkeforbillederetogtotest {
         display: grid;
         grid-gap: 25px;
@@ -238,7 +245,7 @@
     }
   }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 700px) {
   #raekkeforbillederetogtotest2 {
       display: grid;
       grid-gap: 25px;
