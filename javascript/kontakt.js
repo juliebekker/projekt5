@@ -1,9 +1,9 @@
 /*Array og loop*/
 
-var array = ["<h3>Telefon:</h3>", "+45 61 74 39 39", "<br>", "<br>", "<h3>E-mail:</h3>", "Mulig-email@gmail.com"]
+let array = ["<h3>Telefon:</h3>", "+45 61 74 39 39", "<br>", "<br>", "<h3>E-mail:</h3>", "Mulig-email@gmail.com"]
 
 function printArray() {
-  var p = document.getElementById('out');
+  let p = document.getElementById('out');
 
   for (i = 0; i < array.length; i++)
     p.innerHTML += array[i];
@@ -16,21 +16,21 @@ function printArray() {
 /*Kontaktformular*/
 
 function myFunction() {
-  var navn = document.getElementById('navn');
-  var defaultNavn = navn.defaultValue;
-  var currentNavn = navn.value;
+  let navn = document.getElementById('navn');
+  let defaultNavn = navn.defaultValue;
+  let currentNavn = navn.value;
 
-  var email = document.getElementById('email');
-  var defaultEmail = email.defaultValue;
-  var currentEmail = email.value;
+  let email = document.getElementById('email');
+  let defaultEmail = email.defaultValue;
+  let currentEmail = email.value;
 
-  var emne = document.getElementById('emne');
-  var defaultEmne = emne.defaultValue;
-  var currentEmne = emne.value;
+  let emne = document.getElementById('emne');
+  let defaultEmne = emne.defaultValue;
+  let currentEmne = emne.value;
 
-  var besked = document.getElementById('besked');
-  var defaultBesked = besked.defaultValue;
-  var currentBesked = besked.value;
+  let besked = document.getElementById('besked');
+  let defaultBesked = besked.defaultValue;
+  let currentBesked = besked.value;
 
 
   if (defaultNavn == currentNavn || defaultEmail == currentEmail || defaultEmne == currentEmne || defaultBesked == currentBesked) {
@@ -46,22 +46,22 @@ function myFunction() {
 /*Onfocus*/
 
 function myOnfocus1() {
-  var onfocus = document.getElementById('navn');
+  let onfocus = document.getElementById('navn');
   onfocus.value = "";
 }
 
 function myOnfocus2() {
-  var onfocus = document.getElementById('email');
+  let onfocus = document.getElementById('email');
   onfocus.value = "";
 }
 
 function myOnfocus3() {
-  var onfocus = document.getElementById('emne');
+  let onfocus = document.getElementById('emne');
   onfocus.value = "";
 }
 
 function myOnfocus4() {
-  var onfocus = document.getElementById('besked');
+  let onfocus = document.getElementById('besked');
   onfocus.value = "";
 }
 
@@ -69,7 +69,7 @@ function myOnfocus4() {
 /*Onblur*/
 
 function myOnblur1() {
-  var onblur = document.getElementById('navn');
+  let onblur = document.getElementById('navn');
 
   if (onblur.value == "" ) {
     onblur.value = "Navn...";
@@ -78,7 +78,7 @@ function myOnblur1() {
 }
 
 function myOnblur2() {
-  var onblur = document.getElementById('email');
+  let onblur = document.getElementById('email');
 
   if (onblur.value == "" ) {
     onblur.value = "Email...";
@@ -87,7 +87,7 @@ function myOnblur2() {
 }
 
 function myOnblur3() {
-  var onblur = document.getElementById('emne');
+  let onblur = document.getElementById('emne');
 
   if (onblur.value == "" ) {
     onblur.value = "Emne...";
@@ -96,7 +96,7 @@ function myOnblur3() {
 }
 
 function myOnblur4() {
-  var onblur = document.getElementById('besked');
+  let onblur = document.getElementById('besked');
 
   if (onblur.value == "" ) {
     onblur.value = "Besked...";
